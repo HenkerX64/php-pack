@@ -1,7 +1,7 @@
 category: Functions
 questions:
     -
-        question: What is the best way to ensure that a user-defined function is always passed an object as its single parameter?
+        question: 'What is the best way to ensure that a user-defined function is always passed an object as its single parameter?'
         answers:
             - {value: 'function myfunction(stdClass $a)', correct: true}
             - {value: 'function myfunction($a = stdClass)', correct: false}
@@ -34,7 +34,7 @@ questions:
             - {value: '__halt_compiler();', correct: true}
             - {value: 'exit();', correct: true}
     -
-        question: What is the difference between the ``include`` and ``require`` language constructs?
+        question: 'What is the difference between the ``include`` and ``require`` language constructs?'
         answers:
             - {value: 'Require constructs can''t be used with URL filenames', correct: false}
             - {value: 'Include constructs cause a fatal error if the file doesn''t exist', correct: false}

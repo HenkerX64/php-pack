@@ -18,7 +18,7 @@ questions:
     -
         question: 'What is the best way to iterate and modify every element of an array using PHP?'
         answers:
-            - {value: You cannot modify an array during iteration., correct: false}
+            - {value: 'You cannot modify an array during iteration.', correct: false}
             - {value: 'for ($i = 0; $i < count($array); $i++) { /* ... * / }', correct: false}
             - {value: 'foreach ($array as $key => &$val) { /* ... * / }', correct: true}
             - {value: 'foreach ($array as $key => $val) { /* ... * / }', correct: false}
@@ -31,7 +31,7 @@ questions:
                        echo $array[$array[FOO]] * $array["FOO"];
 
         answers:
-            - {value: FOO, correct: false}
+            - {value: 'FOO', correct: false}
             - {value: 100, correct: false}
             - {value: 200, correct: true}
             - {value: 20, correct: false}

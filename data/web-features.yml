@@ -32,7 +32,7 @@ questions:
             - {value: 'Use the session_regenerate_id() function', correct: false}
             - {value: 'Implement a custom session handler', correct: false}
     -
-        question: | 
+        question: |
                     Consider the following HTML fragment:
                     <select name="?????" multiple>
                     <option value="1">Item #1</option>
@@ -92,7 +92,7 @@ questions:
             - {value: 'Use the $_SERVER[''PHP_AUTH_USER''] and $_SERVER[''PHP_AUTH_PW''] variables', correct: true}
             - {value: 'Parse the $_SERVER[''REQUEST_URI''] variable', correct: false}
     -
-        question: | 
+        question: |
                     Consider the following function:
                     function redirect($url) {
                         // Check to make sure we haven't already sent

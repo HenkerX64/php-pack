@@ -17,7 +17,7 @@ questions:
             - {value: '$a = "Value: $value";', correct: false}
             - {value: '$a = "Value: {$value[''val'']}";', correct: false}
     -
-        question: | 
+        question: |
                     What variable reference would go in the spots indicated by ????? in the code segment below?
                     $msg = "The Quick Brown Foxed Jumped Over the Lazy Dog";
                     $state = true;
@@ -37,7 +37,7 @@ questions:
             - {value: 'chr($msg);', correct: false}
             - {value: 'substr($msg, $i, 2);', correct: false}
     -
-        question: | 
+        question: |
                     Given the two values below, which of the following possibilities will print 10 foos20 bars?
                     $var1 = "10 foos";
                     $var2 = "20 bars";
@@ -71,7 +71,7 @@ questions:
             - {value: 'preg_split("-=-", $string);', correct: false}
             - {value: 'explode("-=-", $string);', correct: true}
     -
-        question: | 
+        question: |
                     What is the output of the following code?
                     $string = "14302";
                     $string[$string[2]] = "4";
@@ -99,7 +99,7 @@ questions:
             - {value: 'str_compare()', correct: false}
             - {value: 'strstr()', correct: false}
     -
-        question: | 
+        question: |
                     Consider the following script:
                     $oranges = 10;
                     $apples = 5;
@@ -115,7 +115,7 @@ questions:
             - {value: 'print sprintf($apples, $oranges);', correct: false}
             - {value: 'sprintf($string, $oranges, $apples);', correct: false}
     -
-        question: | 
+        question: |
                     Which functions would be needed to translate the following string:
                     I love PHP
                     to the following?
@@ -127,7 +127,7 @@ questions:
             - {value: 'str_reverse()', correct: false}
             - {value: 'strrev()', correct: true}
     -
-        question: | 
+        question: |
                     Which string does the following PCRE regular expression match?
                     $regex = "/^([a-z]{5})[1-5]+([a-z]+)/";
         answers:

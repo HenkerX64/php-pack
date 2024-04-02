@@ -32,7 +32,7 @@ questions:
         question: 'Which from the following list is not an appropriate use of an array?'
         answers:
             - {value: 'As a list', correct: false}
-            - {value: 'All of these uses are valid	', correct: true}
+            - {value: 'All of these uses are valid', correct: true}
             - {value: 'As a Lookup Table', correct: false}
             - {value: 'A Stack', correct: false}
             - {value: 'As a hash table', correct: false}
@@ -142,7 +142,7 @@ questions:
         answers:
             - {value: '$array_three = array_merge(array_reverse($array_one), $array_two);', correct: false}
             - {value: '$array_three = array_combine($array_one, $array_two);', correct: false}
-            - {value: '$array_three = array_combine(array_reverse($array_one), $array_two);	', correct: true}
+            - {value: '$array_three = array_combine(array_reverse($array_one), $array_two);', correct: true}
             - {value: '$array_three = array_merge($array_one, $array_two);', correct: false}
             - {value: '$array_three = array_reverse($array_one) + $array_two;', correct: false}
     -
@@ -173,7 +173,7 @@ questions:
             - {value: 'import_variables', correct: false}
             - {value: 'list', correct: true}
     -
-        question: | 
+        question: |
                     The following code snippet displays what for the resultant array?
                     $a = [1 => 0, 3 => 2, 4 => 6];
                     $b = [3 => 1, 4 => 3, 6 => 4];
